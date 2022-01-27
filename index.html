@@ -1,209 +1,208 @@
 <html>
 
-<head>
+  <head>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="http://fonts.googleapis.com/css?family=Ruthie|Ubuntu+Condensed|Economica" rel="stylesheet"
-		type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.googleapis.com/css?family=Ruthie|Ubuntu+Condensed|Economica" rel="stylesheet" type="text/css">
 
-	<style type="text/css">
-
-
-		/* ------------------------------- BODY -------------------------------- */
+    <style type="text/css">
+      /* ------------------------------- BODY -------------------------------- */
 
 
-		body {
-			background-color: #ffffff;
-			font-family: Helvetica, Arial, sans-serif;
-			background-attachment: fixed;
-			font-size: 2em;
-			margin: 0;
-		}
-	
+      body {
+        background-color: #ffffff;
+        font-family: Helvetica, Arial, sans-serif;
+        background-attachment: fixed;
+        font-size: 2em;
+        margin: 0;
+      }
 
-		/* ----------------------------- SHIELD -------------------------------- */
+
+      /* ----------------------------- SHIELD -------------------------------- */
 
 
 
-		#shield {}
+      #shield {}
 
 
 
-		#round {
-			font-family: 'Ubuntu Condensed';
-			font-size: 1.2vmax;
-			line-height: 80%;
-			background-color: #f28e64;
-			color: #272727;
-			position: fixed;
-			height: 20vmax;
-			width: 20vmax;
-			margin-top: 7vmin;
-			margin-left: 10vmax;
-			background-color: #ffcd97;
-			border-radius: 500px;
-			-webkit-border-radius: 500px;
-			-moz-border-radius: 500px;
-			-o-border-radius: 500px;
-			border: 2vmax #f28e64 solid;
-			text-align: center;
-      margin-bottom: 5vmax;
-		}
+      #round {
+        font-family: 'Ubuntu Condensed';
+        font-size: 1.2vmax;
+        line-height: 80%;
+        background-color: #f28e64;
+        color: #272727;
+        position: fixed;
+        height: 20vmax;
+        width: 20vmax;
+        margin-top: 7vmin;
+        margin-left: 10vmax;
+        background-color: #ffcd97;
+        border-radius: 500px;
+        -webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        -o-border-radius: 500px;
+        border: 2vmax #f28e64 solid;
+        text-align: center;
+        margin-bottom: 5vmax;
+      }
 
 
-		#round2 {
-			position: fixed;
-			height: 20vmax;
-			width: 20vmax;
-			margin-top: 7vmin;
-			margin-left: 10vmax;
-			background-color: #f28e64;
-			border-radius: 500px;
-			-webkit-border-radius: 500px;
-			-moz-border-radius: 500px;
-			-o-border-radius: 500px;
-			border: 2vmax #f28e64 solid;
-			-webkit-transition: all 1s ease-in-out;
-			-moz-transition: all 1s ease-in-out;
-			-o-transition: all 1s ease-in-out;
-			transition: all 1s ease-in-out;
+      #round2 {
+        position: fixed;
+        height: 20vmax;
+        width: 20vmax;
+        margin-top: 7vmin;
+        margin-left: 10vmax;
+        background-color: #f28e64;
+        border-radius: 500px;
+        -webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        -o-border-radius: 500px;
+        border: 2vmax #f28e64 solid;
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
 
-		}
+      }
 
-		#round2 img {
-			height: 20vmax;
-			width: 20vmax;
-			border-radius: 500px;
-			-webkit-border-radius: 500px;
-			-moz-border-radius: 500px;
-			-o-border-radius: 500px;
-			;
-		}
+      #round2 img {
+        height: 20vmax;
+        width: 20vmax;
+        border-radius: 500px;
+        -webkit-border-radius: 500px;
+        -moz-border-radius: 500px;
+        -o-border-radius: 500px;
+        ;
+      }
 
-		#round2:hover {
-			-webkit-transition: all 1s ease-in-out;
-			-moz-transition: all 1s ease-in-out;
-			-o-transition: all 1s ease-in-out;
-			transition: all 1s ease-in-out;
-			opacity: 0;
-		}
-
-
-		#blogtitle {
-			font-family: 'Ubuntu Condensed';
-			font-size: 2vmax;
-			text-transform: uppercase;
-			color: #272727;
-			text-align: center;
-			padding-top: 7vmin;
-		}
+      #round2:hover {
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        opacity: 0;
+      }
 
 
+      #blogtitle {
+        font-family: 'Ubuntu Condensed';
+        font-size: 2vmax;
+        text-transform: uppercase;
+        color: #272727;
+        text-align: center;
+        padding-top: 7vmin;
+      }
 
-		#round:hover #description {
-			-webkit-transition: all 1s ease-in-out;
-			-moz-transition: all 1s ease-in-out;
-			-o-transition: all 1s ease-in-out;
-			transition: all 1s ease-in-out;
-			opacity: 1;
-		}
+
+
+      #round:hover #description {
+        -webkit-transition: all 1s ease-in-out;
+        -moz-transition: all 1s ease-in-out;
+        -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        opacity: 1;
+      }
 
 
 
 
-		#beam {
-			position: fixed;
-			background-color: #f28e64;
-			height: 2.5vmax;
-			width: 100%;
-			margin-top: 20vmin;
-			left: 0px;
-		}
+      #beam {
+        position: fixed;
+        background-color: #f28e64;
+        height: 2.5vmax;
+        width: 100%;
+        margin-top: 20vmin;
+        left: 0px;
+      }
 
-		#title {
-			font-family: 'Ubuntu Condensed';
-			font-size: 3vmax;
-			position: absolute;
-			margin-top: 6vmin;
-			margin-left: 37vmax;
-			color: #272727;
-		}
+      #title {
+        font-family: 'Ubuntu Condensed';
+        font-size: 3vmax;
+        position: absolute;
+        margin-top: 6vmin;
+        margin-left: 37vmax;
+        color: #272727;
+      }
 
-		#text {
-			font-family: 'Ubuntu Condensed';
-			font-size: 1.5vmax;
-			position: absolute;
-			margin-top: 28vmin;
-			margin-left: 37vmax;
-		}
+      #text {
+        font-family: 'Ubuntu Condensed';
+        font-size: 1.5vmax;
+        position: absolute;
+        margin-top: 28vmin;
+        margin-left: 37vmax;
+      }
 
-	@media only screen and (max-width: 650px) {
-	#title {
-			position: fixed;
-      margin-top: 25vmax;
-      margin-left: 15vmin;
-			font-size: 3.5vmax;
-	}
-	}
+      @media only screen and (max-width: 650px) {
+        #title {
+          position: fixed;
+          margin-top: 25vmax;
+          margin-left: 15vmin;
+          font-size: 3.5vmax;
+        }
+      }
 
-	@media only screen and (max-width: 650px) {
-	#text {
-	position: fixed;
-	margin-top: 37vmax;
-	margin-left: 10vmin;
-			font-size: 2vmax;
-	}
-	}
+      @media only screen and (max-width: 650px) {
+        #text {
+          position: fixed;
+          margin-top: 37vmax;
+          margin-left: 10vmin;
+          font-size: 2vmax;
+        }
+      }
 
-	@media only screen and (max-width: 650px) {
-	#beam {
-			height: 3vmax;
-	}
-	}
+      @media only screen and (max-width: 650px) {
+        #beam {
+          height: 3vmax;
+        }
+      }
 
-	</style>
-
-
-
-</head>
-
-<body>
+    </style>
 
 
 
-	<div id="shield">
-		<div id="beam"></div>
+  </head>
 
-		<div id="round">
-			<p><div id="blogtitle">Credits</div></p>
-			<p>Text: Once</p>
-			<p>Author: fuddy_duddy</p>
-			<p>Reader: Elany</p>
-			<p>Music: Ruin by The </p>
-			<p>Amazing Devil</p>
-		</div>
-		<div id="round2">
-			<img src="https://data.whicdn.com/images/351474597/original.jpg">
+  <body>
+
+
+
+    <div id="shield">
+      <div id="beam"></div>
+
+      <div id="round">
+        <p>
+          <div id="blogtitle">Credits</div>
+        </p>
+        <p>Text: Once</p>
+        <p>Author: fuddy_duddy</p>
+        <p>Reader: Elany</p>
+        <p>Music: Ruin by The </p>
+        <p>Amazing Devil</p>
+      </div>
+      <div id="round2">
+        <img src="https://data.whicdn.com/images/351474597/original.jpg">
+      </div>
+      <div id="title">
+        <p> Once by fuddy_duddy </p>
+      </div>
+      <div id="text">
+        <audio src="https://dl.dropboxusercontent.com/s/wc1gkk515oxypeg/TIME_OUT_CHAPTER_1.mp3?dl=0" controls="controls" crossorigin="anonymous" preload="metadata">
+
+          <p>Your browser doesn't support streaming with the HTML5 audio tag, but you can still <a href="https://www.dropbox.com/s/wc1gkk515oxypeg/TIME_OUT_CHAPTER_1.mp3?dl=0" rel="nofollow">download this podfic</a>.</p>
+        </audio>
+        <ul style="line-height:150%">
+          <li>Google Drive <a href="https://drive.google.com/file/d/1dpyrpMMirp_M1zfu9Jq4TVHyizR1hUh1/view" rel="nofollow">here</a>
+          </li>
+          <li>Length: 01:08:08</li>
+          <li>File type: MP3 (130 MB)</li>
+
+        </ul>
+      </div>
     </div>
-			<div id="title">
-				<p> Once by fuddy_duddy </p>
-			</div>
-			<div id="text">
-  <audio src="https://dl.dropboxusercontent.com/s/wc1gkk515oxypeg/TIME_OUT_CHAPTER_1.mp3?dl=0" controls="controls" crossorigin="anonymous" preload="metadata">
 
-<p>Your browser doesn't support streaming with the HTML5 audio tag, but you can still <a href="https://www.dropbox.com/s/wc1gkk515oxypeg/TIME_OUT_CHAPTER_1.mp3?dl=0" rel="nofollow">download this podfic</a>.</p></audio>
-				<ul style="line-height:150%">
-					<li>Google Drive <a href="https://drive.google.com/file/d/1dpyrpMMirp_M1zfu9Jq4TVHyizR1hUh1/view"
-							rel="nofollow">here</a>
-					</li>
-					<li>Length: 01:08:08</li>
-					<li>File type: MP3 (130 MB)</li>
-			
-				</ul>
-			</div>
-		</div>
-
-	</div>
-</body>
+    </div>
+  </body>
 
 </html>
